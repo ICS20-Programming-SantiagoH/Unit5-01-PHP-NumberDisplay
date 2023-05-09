@@ -1,0 +1,51 @@
+/* Created by: MariaG
+ * Modified by: Santiago Hewett
+ * Created on: March 2023
+ * This CSS file defines the style for index.php
+ * ICS2O-Unit5-01-PHP-NumberDisplay
+*/
+
+form {
+  background-color: #47ebcf;
+  padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+h1 { 
+  background-color: #9061ff;
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+h3 {
+  background-color: #57f4b0;
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+p {
+  width: 80%;
+  margin-left: 10%;
+}
+
+iframe {
+  margin-bottom: 5%;
+  background-color: #ff00bb;
+	padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+	margin-top: 15px;
+}
+
+#yellow {
+  background-color: #67cdf9;
+  padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 30px;
+}
