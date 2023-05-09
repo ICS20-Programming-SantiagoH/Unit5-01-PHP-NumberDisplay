@@ -9,7 +9,7 @@ $counter = $min;
 $message = "";
 
 //Display if user did not enter anything
-if (is_nan($min) || is_nan($max)) {
+if ($max=="" || $min=="") {
   $message ="Please Enter a Min and/or Max";
 }
 
@@ -20,13 +20,11 @@ else if ($counter > $max) {
 
 //While for statement for number display
 else {
-
-//while statement for the number that will be displayed
   while ($counter <= $max){
 //Number with line break
     $message = $message . $counter . ", ";
 //Add to counter
-    $counter = $counter + 1;
+    $counter = $counter ++;
   }
 }
 
